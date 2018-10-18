@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_Buscar_Vaga"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="@string/buscarvaga" />
+
+        <item
+            android:id="@+id/action_Check_Out"
+            android:icon="@drawable/unlock"
+            android:visibility="gone"
+            android:title="@string/title_activity_checkout" />
+
+        <!--
+        <item
+            android:id="@+id/action_Check_Out_2"
+            android:icon="@drawable/lock"
+            android:visibility="gone"
+            android:title="@string/check_out" />
+
+        -->
+        <item
+            android:id="@+id/action_Historico_Vaga"
+            android:icon="@drawable/hist_car"
+            android:title="@string/historico_vagas" />
+
+        <item
+            android:id="@+id/action_Tipo_Vaga"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/Lista_tipo_vaga" />
+
+        <item
+            android:id="@+id/action_my_dados"
+            android:icon="@drawable/edit_user"
+            android:title="@string/alterar_dados" />
+
+
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/mail"
+                android:title="@string/action_contact" />
+
+
+            <item
+                android:id="@+id/action_login_logout"
+                android:orderInCategory="100"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="@string/action_exist"
+                app:showAsAction="never" />
+
+
+
+
+
+</group>
+
+
+</menu>

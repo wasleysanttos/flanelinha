@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="imagemMarcadores">
+
+        <item>@drawable/branco</item> <!-- Esse item é apenas para ocupar a posição zero do array-->
+
+        <item>@drawable/carro_2</item> <!--zona azul 2 horas -->
+        <item>@drawable/carro_5</item> <!--zona azul 5 horas -->
+        <item>@drawable/carro_3</item> <!--zona azul carga e descarga -->
+        <item>@drawable/carro_4</item> <!--zona azul idoso 2 horas -->
+        <item>@drawable/carro_1</item> <!--zona azul idoso 5 horas  -->
+        <item>@drawable/carro_6</item> <!--zona azul deficiente 2 horas -->
+        <item>@drawable/carro_7</item> <!--zona azul deficiente 2 horas -->
+        <item>@drawable/parking</item> <!-- estacionamento privado -->
+
+    </array>
+
+</resources>

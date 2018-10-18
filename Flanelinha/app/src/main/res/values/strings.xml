@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Flanelinha</string>
+
+    <!--Labels-->
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="endereco">Endereço</string>
+    <string name="bairro">Bairro</string>
+    <string name="cidade">Cidade</string>
+    <string name="estado">Estado</string>
+    <string name="tipo_veiculo">Tipo de veículo </string>
+    <string name="tipo_vaga">Tipo de vaga</string>
+    <string name="novo_tipo_vaga">Novo Tipo </string>
+    <string name="tempo_vaga">Tempo limite</string>
+    <string name="descricao">Descricao</string>
+    <string name="texto_cabecalho">Minhas vagas</string>
+    <string name="texto_permanencia">Permanencia</string>
+    <string name="texto_especificacao">Especificação</string>
+    <string name="move_the_camera">Move the camera</string>
+    <string name="selecione_email">Selecione uma conta de email</string>
+
+    <!--botões-->
+    <string name="check_in">Estacionar</string>
+    <string name="check_out">Liberar minha vaga</string>
+    <string name="check_out_2">Você não está ocupando vaga</string>
+    <string name="check_out_others">Indisponível</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="voltar">Voltar</string>
+    <string name="receber_palavra">ENVIAR PALAVRA SECRETA POR EMAIL</string>
+    <string name="inserir_palavra">INSERIR PALAVRA SECRETA</string>
+    <string name="reenviar_palavra">REENVIAR PALAVRA SECRETA</string>
+
+    <string name="btn_novoUsuario">Novo usuario</string>
+    <string name="btn_recuperarSenha">Esqueci minha senha</string>
+
+    <string name="action_settings">Sobre</string>
+    <string name="action_exist">Sair</string>
+    <string name="lista_delet">Deletar vaga</string>
+    <string name="historico_vagas">Meu histórico de vagas</string>
+    <string name="buscarvaga">Localizar todas as vagas</string>
+    <string name="Lista_tipo_vaga">Tipos de Vagas</string>
+    <string name="configuracao">Configurações</string>
+    <string name="atualizartipovaga">Atualizar Tipo de Vaga</string>
+    <string name="deletartipovaga">Apagar Tipo de Vaga</string>
+
+    <!--titulos de telas-->
+    <string name="title_activity_maps">Vagas</string>
+    <string name="title_activity_tipo_vaga">Cadastro de Tipo de Vaga</string>
+    <string name="title_activity_lista_tipo_vaga">Tipos de vaga</string>
+    <string name="title_vaga_existente">Vaga existente</string>
+    <string name="title_busca_endereco">Busca endereço</string>
+    <string name="title_activity_nova_vaga">Nova Vaga</string>
+    <string name="title_activity_exibe_vagas_banco">Meu histórico de vaga</string>
+    <string name="title_activity_checkout">Minhas vagas ocupadas</string>
+    <string name="title_activity_cadastro_usuario">Cadastrar usuario</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha para o aplicativo</string>
+    <string name="prompt_new_password">Informe uma nova senha</string>
+
+
+    <string name="prompt_palavra">Palavra Secreta</string>
+    <string name="action_sign_in">LOGIN</string>
+    <string name="novo_usuario">Criar Conta</string>
+    <string name="esqueci_senha">Esqueci minha senha </string>
+
+    <!--menus-->
+    <string name="tap_instructions"></string>
+    <string name="icon">teste</string>
+
+
+    <!--textos diversos-->
+    <string name="nenhuma_vaga">Nenhuma vaga ocupada por você</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="mapa_indisponivel">Mapa indisponivel</string>
+
+    <string name="autentication">Autenticação</string>
+    <string name="opcao_login">Login</string>
+    <string name="alterar_dados">Alterar meus dados</string>
+    <string name="alterar_senha">Alterar senha</string>
+    <string name="opcao_logout">Logout</string>
+
+    <string name="erro_gps">É necessário habilitar a configuração de localização para utilizar o aplicativo.</string>
+    <string name="erro_local">Você deve habilitar as permissões para utilizar o aplicativo.</string>
+    <string name="error_invalid_email">Esse endereço de email é invalido. Forneça um email que contenha @xxxx.xxx</string>
+    <string name="error_invalid_password">Esta senha é muito curta</string>
+    <string name="error_exist_email">Esse email já existe</string>
+    <string name="error_incorrect_password">Esse password está incorreto</string>
+    <string name="error_field_required">Este campo é obrigatório</string>
+    <string name="permission_rationale">"Flanelinha necessita de acesso a sua localização e contas de e-mail!"</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login2">LOGIN</string>
+    <string name="RecuperarSenha">Por favor, insira seu e-mail no campo abaixo.</string>
+    <string name="acao_novo">Informe uma nova senha</string>
+    <string name="acao_delete">Deletar</string>
+    <string name="mensagem_excluir">%d itens excluídos.</string>
+    <string name="desfazer">Desfazer</string>
+
+    <plurals name="numero_selecionados">
+        <item quantity="one">1 selecionado</item>
+        <item quantity="other">%d selecionados</item>
+    </plurals>
+    <string name="title_activity_maps2">Map</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="title_activity_mapa">Localizar vagas</string>
+    <string name="sobre_titulo">Filtro de Vaga</string>
+    <string name="sobre_mensagem">Clique sobre um tipo de vaga para realizar a pesquisa</string>
+    <string name="sobre_mensagem_historico">Clique sobre a vaga para localizar seu veículo</string>
+    <string name="sobre_mensagem_vaga_ocupada">Clique e segure sobre a vaga para libera-la</string>
+
+    <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
+    <string name="banner_ad_unit_id">ca-app-pub-3098128271832738/8264940007</string>
+    <string name="textodata">Data:</string>
+    <string name="textohora">Horario:</string>
+    <string name="livre">Livre</string>
+    <string name="statusVaga">Seu veicúlo está ocupando essa vaga</string>
+    <string name="action_contact">Contato</string>
+    <string name="selection_estado">Selecione o Estado</string>
+    <string name="selecione_uma_a_o_clicando_sobre_a_placa">Selecione uma ação clicando sobre a placa</string>
+
+</resources>

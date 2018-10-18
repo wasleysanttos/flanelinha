@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "830094599785",
+    "firebase_url": "https://flanelinha-65667.firebaseio.com",
+    "project_id": "flanelinha-65667",
+    "storage_bucket": "flanelinha-65667.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830094599785:android:e491678d9a51b774",
+        "android_client_info": {
+          "package_name": "com.its.wasleysantos.flanelinha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830094599785-0sr22sdoc18tjbl6da04936m03ropod1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.its.wasleysantos.flanelinha",
+            "certificate_hash": "EF9D81676E0B5E7464D80ABAE8CDE6DFA05345AC"
+          }
+        },
+        {
+          "client_id": "830094599785-r836gpfmsjtq0ciafbpj8bdqd3gf7jvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyQv8jng0HI0noinvDtzekDPyZvpEQGU0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830094599785-r836gpfmsjtq0ciafbpj8bdqd3gf7jvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

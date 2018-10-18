@@ -1,0 +1,86 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|top"
+    android:stretchColumns="2"
+    android:id="@+id/tela_checkin"
+    tools:context="com.example.wasleysantos.flanelinha.fragment.VagaExistenteFragment">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="322dp"
+        android:weightSum="1"
+        tools:ignore="UselessLeaf">
+
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:background="@color/colorCheckin"
+        android:layout_height="173dp">
+
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="110dp"
+            android:id="@+id/action_Check_In"
+            android:src="@drawable/estacionar"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/action_Check_In_others"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            tools:ignore="ContentDescription,RtlHardcoded"
+            android:contentDescription="" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="110dp"
+            android:id="@+id/action_Check_In_others"
+            android:src="@drawable/indisponivel"
+            android:layout_alignTop="@+id/imgInexistente"
+            android:layout_toLeftOf="@+id/imgInexistente"
+            android:layout_toStartOf="@+id/imgInexistente"
+            android:contentDescription=""
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="110dp"
+            android:id="@+id/imgInexistente"
+            android:src="@drawable/inexistente"
+            android:layout_alignTop="@+id/action_Check_In"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:contentDescription=""
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selecione_uma_a_o_clicando_sobre_a_placa"
+            android:id="@+id/textView2"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/action_Check_In"
+            tools:ignore="SpUsage" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ocupa_vaga"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+
+
+</TableLayout>
+
+
